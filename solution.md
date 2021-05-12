@@ -10,6 +10,7 @@ The page will reload if you make edits.
 
 * Convert to typescript
     * Will likely need a lot of fixes, ensure it's working locally before deploying
+* Export countapi values to config space
 * Include Dockerfile
 * Lint & E2E testing
 * Mobile friendly display
