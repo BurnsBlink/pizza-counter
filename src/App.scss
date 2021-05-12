@@ -1,3 +1,61 @@
+$fearless-purple: #5b3880;
+$main-green: #04AA6D;
+
 .App {
+  background-blend-mode: saturation;
+  background-image: linear-gradient(black, black), url('https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  width: 100vw;
+}
+
+.header-title {
+  background: $fearless-purple;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+#pizza-count {
+  color: white;
+  font-size: 40px;
+}
+
+#count-block {
+  padding: 4% 0 2%;
+}
+
+#add-count {
+  background: url("https://media1.tenor.com/images/12a7aae5abd560ea9a2e7ce06c821784/tenor.gif?itemid=7693125");
+  background-size: cover;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px $fearless-purple;
+  color: white;
+  font-weight: 900;
+  height: 130px;
+  outline: none;
+  padding-bottom: 80px;
+  width: 300px;
+
+  &:hover {
+    border: 1px solid yellow;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=79446);
+    cursor: url('./media/Pizza.png'), default;
+  }
+
+  &:active {
+    box-shadow: 0 5px $main-green;
+    color: $main-green;
+    transform: translateY(4px);
+  }
 }
