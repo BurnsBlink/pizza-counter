@@ -1,4 +1,4 @@
-# Project Purple Cow
+# Pizza Counter
 
 ## Available Scripts
 
